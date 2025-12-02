@@ -6,10 +6,10 @@ import faiss
 import os
 
 # === KONFIGURASI DASAR ===
-st.set_page_config(page_title="RANI-GEMINI", page_icon="💬", layout="centered")
+st.set_page_config(page_title="RANI", page_icon="💬", layout="centered")
 
 # === API KEY GEMINI ===
-GEMINI_API_KEY = "AIzaSyAjqb37f7lty5ThvAMkfwDTbkB-hdxf678"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 if not GEMINI_API_KEY or GEMINI_API_KEY.strip() == "":
     st.error("❌ API Key Gemini belum diisi di variabel GEMINI_API_KEY.")
